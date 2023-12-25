@@ -1,0 +1,199 @@
+/* 
+Comfortaa - Font Family
+
+#f0932b - olovrang
+#7ed6df - och ko'k
+#ff7979 - och qizil
+#badc58 - yashil
+*/
+@import url(https://fonts.googleapis.com/css2?family=Comfortaa:wght@100;200;300;400;500;600;700&display=swap);
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style: none;
+  outline: none;
+}
+body {
+  font-family: 'Comfortaa', display;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /*IE6, IE7*/
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.bc-orange {
+  background-color: #f0932b;
+}
+.bc-light-blue {
+  background-color: #7ed6df;
+}
+.bc-light-red {
+  background-color: #ff7979;
+}
+.bc-green {
+  background-color: #badc58;
+}
+.bc-orange:hover {
+  background-color: rgba(240, 147, 43, .5);
+}
+.bc-light-blue:hover {
+  background-color: rgba(126, 214, 223, .5);
+}
+.bc-light-red:hover {
+  background-color: rgba(255, 121, 121, .5);
+}
+.bc-green:hover {
+  background-color: rgba(186, 220, 88, .5);
+}
+
+header{
+  background-image: url('./images/chef-icon.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 90px 0;
+  text-align: center;
+}
+
+.company-name{
+  font-size: 70px;
+}
+
+.slogan {
+  font-weight: 600;
+}
+
+nav{
+  width: 80%;
+  margin: 50px auto;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);  
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  text-align: center;  
+}
+.nav-item {
+  display: inline-block;
+}
+.nav-link{
+  display: inline-block;
+  padding: 20px 40px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+  text-transform: uppercase;
+  transition: background-color .6s;
+}
+
+.nav-link:hover{
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.main {
+  text-align: center;
+}
+
+.recipes-list {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+
+}
+.recipe-item {
+  width: 30%;
+  margin: 10px 2.2%;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.recipe-item:nth-child(1),
+.recipe-item:nth-child(4){
+  margin-left: 0;
+}
+.recipe-item:nth-child(3),
+.recipe-item:nth-child(6){
+  margin-right: 0;
+}
+
+.recipe-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.recipe-category{
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 5px 10px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.recipe-title-link {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin: 15px 0;
+}
+.recipe-title-link:hover{
+  color: #ff7979;
+}
+
+.all-recipes {
+  text-decoration: none;
+  color: #ff7979;
+  border: 3px solid #ff7979;
+  display: inline-block;
+  padding: 15px 30px;
+  margin: 40px 0;
+  transition: .3s;
+}
+
+.all-recipes:hover{
+  background-color: #ff7979;
+  color: white;
+}
+
+.form {
+  background-image: url('./images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -50px;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.email-input {
+  padding: 10px 20px;
+  width: 400px;
+  border: none;
+  margin-right: 20px;
+}
+
+.email-submit {
+  padding: 10px 40px;
+  border: none;
+  background-color: #ff5858;
+  color: white;
+  font-weight: bold;
+}
+
+.email-submit:hover{
+  color: white;
+  background-color: #ff9999;
+}
+
+.subscribe-text {
+  color: white;
+  margin-top: 40px;
+}
